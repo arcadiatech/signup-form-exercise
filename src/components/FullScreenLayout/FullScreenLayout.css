@@ -1,0 +1,17 @@
+.full-screen-layout {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-screen-layout-header {
+  display: flex;
+  height: 100px;
+}
+
+.full-screen-layout-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

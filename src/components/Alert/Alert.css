@@ -1,0 +1,32 @@
+.alert-container {
+    display: flex;
+    padding: 16px;
+    font-size: 14px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.alert-container.info {
+    background-color: #d3f4ec;
+    border-color: #95b0a9;
+    color: #95b0a9;
+}
+
+.alert-container.success {
+    background-color: #baf5ba;
+    border-color: #689468;
+    color: #689468;
+}
+
+.alert-container.warning {
+    background-color: #f5e8ba;
+    border-color: #a59b74;
+    color: #a59b74;
+}
+
+.alert-container.error {
+    background-color: #f5baba;
+    border-color: #946868;
+    color: #946868;
+}
+
